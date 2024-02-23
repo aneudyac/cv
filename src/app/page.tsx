@@ -100,11 +100,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.sort((a,b) => {
-            if (a.end === 'present') return -1
-
-            return a.start < b.start ? 1 : -1
-          }).map((work) => {
+          {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
