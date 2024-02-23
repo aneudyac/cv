@@ -1,4 +1,4 @@
-![cv](/preview.png)
+![cv](https://github.com/aneudyac/cv/blob/main/public/preview.png)
 
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 
