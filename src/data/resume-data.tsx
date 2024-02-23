@@ -20,259 +20,179 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Aneudy Abreu",
+  initials: "AA",
+  location: "Guadalajara, Jalisco, México",
+  locationLink: "https://www.google.com/maps/place/Guadalajara,+Jal./@20.6740118,-103.4177991,12z/data=!3m1!4b1!4m6!3m5!1s0x8428b18cb52fd39b:0xd63d9302bf865750!8m2!3d20.6751707!4d-103.3473385!16zL20vMGpwMjY?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Versatile Full Stack Engineer dedicated to crafting high-quality products with meticulous attention to detail, ensuring seamless user experiences and robust functionality",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer, I've been instrumental in guiding multiple products from ideation to implementation. With over 10 years experience, I excel in leadership, fostering an environment conducive to optimal performance. Currently, my focus lies in leveraging technologies such as C#, SQL Server, JavaScript, and Vue.js to drive innovation and deliver robust solutions.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/7201782?v=4",
+  personalWebsiteUrl: "https://aneudyac.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "aneudy91@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/aneudyac",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/aneudyabreu/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/aneudyac",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "UNIVERSIDAD ADVENTISTA DOMINICANA",
+      degree: "Information systems engineering",
+      start: "2004",
+      end: "2009",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "UNAD",
+      link: "https://www.unad.edu.do/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Network and IT Manager",
+      logo: null,
+      start: "2007",
+      end: "2009",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "As the Network Administrator, I oversee the institution's network infrastructure, managing design, implementation, maintenance, and security. Additionally, I lead the IT department, coordinating efforts to ensure smooth operation of all systems and services, aligning with organizational goals for performance and security.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Publiplas",
+      link: "https://www.publiplas.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
+      title: "Desktop Software Development",
+      logo: null,
+      start: "2011",
       end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      description:
+        "Develop new application for the company and Manage the IT Department.",
     },
+    {
+      company: "Flex",
+      link: "https://flex.com/",
+      badges: [],
+      title: "Business Systems Analyst 2",
+      logo: null,
+      start: "2015",
+      end: "2016",
+      description:
+        "The business analyst is responsible to work together with the business owner to gather and document their requirements, design process flows, software functionality and user interfaces. He/she needs to communicate with the technical team to develop the software, test it accordingly and then also help to implement it at one of Flex’ site world-wide.",
+    },
+    {
+      company: "Flex",
+      link: "https://flex.com/",
+      badges: [],
+      title: "It Project Manager",
+      logo: null,
+      start: "2015",
+      end: "2017",
+      description:
+        "This role focuses on delivering projects within our Strategic Programmes portfolio, which spans various enterprise technologies. These projects encompass end-user-facing solutions as well as the toolsets necessary for securing our infrastructure and facilitating IT operations.",
+    },
+    {
+      company: "ADAGIO",
+      link: "https://adagio.com.mx",
+      badges: [],
+      title: "Software development consultant and support",
+      logo: null,
+      start: "2012",
+      end: "2022",
+      description: "Manage and coordinate the necessary resources related to the development and implementation of information systems.",
+    },
+    {
+      company: "ADAGIO",
+      link: "https://adagio.com.mx",
+      badges: [],
+      title: "Software Development Manager",
+      logo: null,
+      start: "2012",
+      end: "present",
+      description: "Manage and coordinate the necessary resources related to the development and implementation of information systems.",
+    },
+    // {
+    //   company: "INSITY",
+    //   link: "https://www.insity.org/",
+    //   badges: [],
+    //   title: "Nodejs backend developer",
+    //   logo: null,
+    //   start: "2020",
+    //   end: "2023",
+    //   description: "Create and maintain Restful API. Collaborate with Reactjs/Nextjs frontend team.",
+    // },
+    // {
+    //   company: "Terraquo Foods",
+    //   link: "https://foods.terraquo.com/",
+    //   badges: [],
+    //   title: "Chief Technology Officer",
+    //   logo: null,
+    //   start: "2020",
+    //   end: "present",
+    //   description: "Manage and coordinate the necessary resources related to the development and implementation of information systems.",
+    // },
   ],
   skills: [
+    "C#",
+    "MSSQLServer",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "VueJS/Nuxt",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React/Next.js",
+    "Azure cloud",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "ADAGIO-RH",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "C#",
+        "MSSQLServer",
+        "Razor",
+        "Telerik",
+        "jQuery"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "We provide innovative solutions that exceed your needs in the Human Resources sector",
+      logo: null,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "adagio.com.mx",
+        href: "https://adagio.com.mx/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "INSITY",
+      techStack: ["Nodejs", "MSSQLServer"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Web application or platform used by organizations, schools, or institutions to manage, deliver, and track educational courses and training programs.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "https://www.insity.org/",
+        href: "https://www.insity.org/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Terraquo Foods",
+      techStack: ["Side Project", "Vuejs", "Firebase", "Nodejs"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Your Room Service with the best restaurants in the city",
+      logo: null,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "https://foods.terraquo.com",
+        href: "https://foods.terraquo.com",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
