@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Software Development Manager",
       logo: null,
-      start: "2012",
+      start: "2022",
       end: "present",
       description: "Manage and coordinate the necessary resources related to the development and implementation of information systems.",
     },
