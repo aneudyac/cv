@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "It Project Manager",
       logo: null,
-      start: "2015",
+      start: "2016",
       end: "2017",
       description:
         "This role focuses on delivering projects within our Strategic Programmes portfolio, which spans various enterprise technologies. These projects encompass end-user-facing solutions as well as the toolsets necessary for securing our infrastructure and facilitating IT operations.",
